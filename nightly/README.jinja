@@ -1,0 +1,7 @@
+# ModelZ Template Nightly Benchmark
+
+| Template | {{ dates[4] }} | {{ dates[3] }} | {{ dates[2] }} | {{ dates[1] }} | {{ dates[0] }} |
+| --- | --- | --- | --- | --- | --- |
+{% for template, case in case_sum.items() -%}
+| {{ template }} | {{ case[dates[4]] }} | {{ case[dates[3]] }} | {{ case[dates[2]] }} | {{ case[dates[1]] }} | {{ case[dates[0]] }} |
+{% endfor %}

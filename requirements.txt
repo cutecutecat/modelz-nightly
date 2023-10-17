@@ -1,0 +1,3 @@
+supabase>=1.0.4
+jinja2>=3.1.2
+modelz-py @ git+https://github.com/tensorchord/modelz-py@cb163f0a886e65b60d8d9647ed643e1629c36de4
