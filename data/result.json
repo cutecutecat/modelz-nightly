@@ -1,5 +1,12 @@
 {
     "cases": {
+        "2023-10-22": {
+            "badge": {
+                "[ImageBind](https://docs.modelz.ai/frameworks/mosec/imagebind)": "![img](https://img.shields.io/badge/status-238s-green)",
+                "[Stable Diffusion](https://docs.modelz.ai/frameworks/mosec/stable-diffusion)": "![img](https://img.shields.io/badge/status-59s-green)",
+                "[Whisper](https://docs.modelz.ai/frameworks/mosec/whisper)": "![img](https://img.shields.io/badge/status-80s-green)"
+            }
+        },
         "2023-10-21": {
             "badge": {
                 "[ImageBind](https://docs.modelz.ai/frameworks/mosec/imagebind)": "![img](https://img.shields.io/badge/status->600s-red)",
@@ -25,13 +32,6 @@
             "badge": {
                 "[ImageBind](https://docs.modelz.ai/frameworks/mosec/imagebind)": "![img](https://img.shields.io/badge/status-69s-green)",
                 "[Stable Diffusion](https://docs.modelz.ai/frameworks/mosec/stable-diffusion)": "![img](https://img.shields.io/badge/status-53s-green)",
-                "[Whisper](https://docs.modelz.ai/frameworks/mosec/whisper)": "![img](https://img.shields.io/badge/status-13s-green)"
-            }
-        },
-        "2023-10-17": {
-            "badge": {
-                "[ImageBind](https://docs.modelz.ai/frameworks/mosec/imagebind)": "![img](https://img.shields.io/badge/status-28s-green)",
-                "[Stable Diffusion](https://docs.modelz.ai/frameworks/mosec/stable-diffusion)": "![img](https://img.shields.io/badge/status-19s-green)",
                 "[Whisper](https://docs.modelz.ai/frameworks/mosec/whisper)": "![img](https://img.shields.io/badge/status-13s-green)"
             }
         }
