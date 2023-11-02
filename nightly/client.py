@@ -57,7 +57,8 @@ class NightlyClient:
         self.client = AuthenticatedClient(
             base_url=MODELZ_BASIC_URL, token=self.access_token
         )
-
+        # Wait for maybe IssuedAt check failed: Token used before issued
+        time.sleep(10)
         # Get API Key from ModelZ
         resp = get_users_login_name_api_keys.sync_detailed(
             login_name=self.user_id, client=self.client
